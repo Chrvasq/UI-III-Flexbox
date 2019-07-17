@@ -68,7 +68,6 @@ into flexbox */
 .container {
 	display: flex;
 	flex-direction: column;
-	border: 2px solid black;
 }
 
 .container nav, header, section, hr {
@@ -82,8 +81,8 @@ into flexbox */
 
 nav {
 	display: flex;
+	margin-top: 8px !important;
 	justify-content: space-between;
-	border: 2px solid red;
 }
 
 nav a {
@@ -91,7 +90,6 @@ nav a {
 	text-decoration: none;
 	line-height: 36px;
 	padding: 1%;
-	border: 2px solid blue;
 }
 
 .logo {
@@ -101,15 +99,14 @@ nav a {
 header {
 	display: flex;
 	justify-content: flex-end;
-	margin: 37px auto 57px auto;
-	border: 2px solid red;
+	margin-top: 41px;
+	margin-bottom: 59px;
 }
 
 header div:first-child {
 	width: 379px;
 	height: 379px;
 	margin-right: 66px;
-	border: 2px solid blue;
 }
 
 header div h1 {
@@ -117,7 +114,6 @@ header div h1 {
 	font-size: 80px;
 	padding-top: 48px;
 	white-space: pre-line;
-	border: 2px solid green;
 }
 
 header div:last-child {
@@ -132,59 +128,56 @@ header div:last-child {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
-	margin: 12px auto 21px auto;
-	border: 2px solid red;
+	margin-top: 11px;
+	margin-bottom: 26px;
 }
 
 .middle-section article {
 	width: 49%;
 	padding: 1%;
 	padding-left: 0;
-	border: 2px solid blue;
 }
 
 .middle-img {
-	margin: 30px auto 22px auto;
+	margin: auto;
+	margin-top: 37px;
+	margin-bottom: 26px;
 }
 
 .middle-section-bottom-half {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
-	border: 2px solid red;
 }
 
 .middle-section-bottom-half article {
 	width: 33%;
 	padding: 1%;
 	padding-left: 0;
-	border: 2px solid blue;
 }
 
 .contact-section {
-	margin-top: 18px;
-	border: 2px solid red;
+	margin-top: 20px;
+	margin-bottom: 29px;
 }
 
 .contact-section address {
 	display: flex;
 	flex-flow: column;
-	border: 2px solid blue;
 }
 
 .contact-section address p {
 	padding-bottom: 20px;
 	white-space: pre-line;
-	border: 2px solid blue;
 }
 
 footer {
 	width: 900px;
 	margin: auto;
-	padding: 0.5%;
+	margin-bottom: 116px;
 	text-align: center;
 }
 
 footer p {
-	margin-top: 25px; 
-} */
+	font-size: smaller;
+}
