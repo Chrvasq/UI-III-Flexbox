@@ -77,7 +77,6 @@ into flexbox */
 
 .container nav, header, section {
 	margin: auto;
-	padding: 1%;
 	padding: 0.5%;
 }
 
@@ -133,7 +132,7 @@ header div:last-child {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
-	margin: 12px auto 20px auto;
+	margin: 12px auto 21px auto;
 	border: 2px solid red;
 }
 
@@ -161,14 +160,22 @@ header div:last-child {
 	padding-left: 0;
 	border: 2px solid blue;
 }
-/*
+
 .contact-section {
-	width: 25%;
-	margin-top: 45px;
+	margin-top: 18px;
+	border: 2px solid red;
 }
 
-address p{
-	padding-bottom: 15px;
+.contact-section address {
+	display: flex;
+	flex-flow: column;
+	border: 2px solid blue;
+}
+
+.contact-section address p {
+	padding-bottom: 20px;
+	white-space: pre-line;
+	border: 2px solid blue;
 }
 
 footer {
