@@ -66,43 +66,43 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor
 into flexbox */
 .container {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+}
+
+.container nav, header, section {
 	width: 900px;
 	margin: auto;
 	padding: 0.5%;
-	padding-top: 22px;
-}
-
-header {
-	width: 100%;
-	padding: 1% 0;
 }
 
 nav {
-	width: 75%;
-	height: 40px;
-	padding: 1% 0;
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid red;
 }
 
 nav a {
 	color: gray;
 	text-decoration: none;
-	margin: 4%;
+	border: 2px solid blue;
 }
 
-nav a:first-child {
-	margin-left: 0;
+.logo {
+	vertical-align: top;
+}
+
+/*
+header {
+	width: 100%;
+	padding: 1% 0;
 }
 
 header div {
 	display: inline-block;
 	width: 49%;
 	padding-left: 257px;
-}
-
-.logo {
-	vertical-align: top;
-	margin-left: 27px;
 }
 
 .top-section {
@@ -201,4 +201,4 @@ footer {
 
 footer p {
 	margin-top: 25px; 
-}
+} */
