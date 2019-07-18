@@ -187,18 +187,15 @@ footer p {
 	flex-direction: column;
 	margin-top: -8px;
 	margin-bottom: 16px;
-	border: 2px solid red;
 }
 
 .services-header article {
 	margin-top: 25px;
 	padding: 1% 0;
-	border: 2px solid blue;
 }
 
 .services-header article h3 {
 	font-size: x-large;
-	border: 2px solid blue;
 }
 
 .services-middle-section {
@@ -207,7 +204,6 @@ footer p {
 	flex-flow: wrap;
 	justify-content: space-between;
 	margin-bottom: 2px;
-	border: 2px solid red;
 }
 
 .services-middle-section article {
@@ -230,4 +226,33 @@ footer p {
 	padding: 3%;
 	border: 1px solid black;
 	border-radius: 6px;
+}
+
+.services-bottom-section {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	margin-top: 14px;
+	margin-bottom: 78px;
+}
+
+.services-bottom-section article {
+	width: 420px;
+	display: flex;
+	flex-flow: column;
+	padding: 1% 0;
+}
+
+.services-bottom-section article p {
+	margin-bottom: 15px;
+	line-height: 1.5;
+}
+
+.services-bottom-section article ul {
+	list-style-type: square;
+	margin-left: 17px;
+}
+
+.services-bottom-section article ul li {
+	padding-bottom: 15px;
 }
