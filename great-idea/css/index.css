@@ -95,28 +95,39 @@ nav a {
 .logo {
 	vertical-align: top;
 }
-/* TODO Change to index header */
-header {
+
+footer {
+	width: 900px;
+	margin: auto;
+	margin-bottom: 116px;
+	text-align: center;
+}
+
+footer p {
+	font-size: smaller;
+}
+/* Index page CSS start */
+.index-header {
 	display: flex;
 	justify-content: flex-end;
 	margin-top: 41px;
 	margin-bottom: 59px;
 }
 
-header div:first-child {
+.index-header div:first-child {
 	width: 379px;
 	height: 379px;
 	margin-right: 66px;
 }
 
-header div h1 {
+.index-header div h1 {
 	text-align: center;
 	font-size: 80px;
 	padding-top: 48px;
 	white-space: pre-line;
 }
 
-header div:last-child {
+.index-header div:last-child {
 	text-align: center;
 	width: 47%;
 	padding: 2%;
@@ -124,7 +135,7 @@ header div:last-child {
 	margin: -2% auto;
 }
 
-.middle-section {
+.index-middle-section {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
@@ -132,7 +143,7 @@ header div:last-child {
 	margin-bottom: 26px;
 }
 
-.middle-section article {
+.index-middle-section article {
 	width: 49%;
 	padding: 1%;
 	padding-left: 0;
@@ -144,13 +155,13 @@ header div:last-child {
 	margin-bottom: 26px;
 }
 
-.middle-section-bottom-half {
+.index-middle-section-bottom-half {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
 }
 
-.middle-section-bottom-half article {
+.index-middle-section-bottom-half article {
 	width: 33%;
 	padding: 1%;
 	padding-left: 0;
@@ -171,16 +182,6 @@ header div:last-child {
 	white-space: pre-line;
 }
 
-footer {
-	width: 900px;
-	margin: auto;
-	margin-bottom: 116px;
-	text-align: center;
-}
-
-footer p {
-	font-size: smaller;
-}
 /* Services page CSS start */
 .services-header {
 	display: flex;
