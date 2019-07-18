@@ -95,7 +95,7 @@ nav a {
 .logo {
 	vertical-align: top;
 }
-
+/* TODO Change to index header */
 header {
 	display: flex;
 	justify-content: flex-end;
@@ -181,7 +181,7 @@ footer {
 footer p {
 	font-size: smaller;
 }
-
+/* Services page CSS start */
 .services-header {
 	display: flex;
 	flex-direction: column;
@@ -199,4 +199,35 @@ footer p {
 .services-header article h3 {
 	font-size: x-large;
 	border: 2px solid blue;
+}
+
+.services-middle-section {
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+	justify-content: space-between;
+	margin-bottom: 2px;
+	border: 2px solid red;
+}
+
+.services-middle-section article {
+	display: flex;
+	flex-direction: column;
+	width: 46%;
+	margin: 2% 0;
+	padding: 1.5%;
+	border: 1px solid black;
+	background-color: #F3F3F3;
+}
+
+.services-middle-section article p {
+	margin-bottom: 15px;
+	line-height: 1.5;
+}
+
+.services-middle-section article button {
+	width: 38%;
+	padding: 3%;
+	border: 1px solid black;
+	border-radius: 6px;
 }
